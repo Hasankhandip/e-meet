@@ -1,0 +1,33 @@
+.button-1 {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-family: $font-2;
+  font-weight: 500;
+  padding: 15px 60px;
+  background-color: $pink;
+  z-index: 1;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -97%;
+    bottom: -20%;
+    background-color: #031382;
+    opacity: 0.2;
+    width: 110%;
+    height: 200px;
+    z-index: -1;
+    transition: 0.3s;
+    transform: translateY(50%) rotate(-45deg);
+  }
+  &:hover {
+    color: #fff;
+    border-radius: 10px;
+    &::before {
+      left: 30%;
+      bottom: 85%;
+      border-radius: 50px;
+    }
+  }
+}
