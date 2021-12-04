@@ -8,7 +8,7 @@
 .shrinkToFit {
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  width: 100%;
+  width: 100% !important;
 }
 
 * {
@@ -337,10 +337,6 @@ input:focus {
 
 .about-item:last-child {
   margin-bottom: 0;
-}
-
-.about-item:hover {
-  border-radius: 10px;
 }
 
 .about-item:hover::before {
@@ -948,5 +944,117 @@ input:focus {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.sponsor-section {
+  background-image: url(/assets/images/section-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sponsor-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #3b1d82;
+  margin-bottom: 60px;
+}
+
+.sponsor-title-2 {
+  color: #bd0a59;
+}
+
+.sponsor-img-area {
+  padding: 30px 15px;
+  background-color: transparent;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sponsor-img-area:hover {
+  -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sponsor-wall {
+  margin-bottom: 40px;
+}
+
+.sponsor-wall-2 {
+  margin: 0 80px;
+}
+
+.contact-nav {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-bottom: 35px;
+}
+
+.contact-nav .nav-link {
+  padding: 5px 32px !important;
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.075) !important;
+}
+
+.contact-nav .nav-link.active {
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid #bd0a59 !important;
+}
+
+.contact-nav .nav-link.active::before {
+  bottom: -13px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #bd0a59;
+}
+
+.contact-nav .nav-item {
+  margin-right: 7px;
+}
+
+.contat-details-title {
+  font-size: 25px;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 10px;
+}
+
+.contat-details-title-info {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #575757;
+}
+
+.contact-details-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+.contact-details-item span {
+  font-size: 16px;
+}
+
+.contact-map iframe {
+  width: 530px;
+  height: 530px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.contact-map iframe:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 /*# sourceMappingURL=style.css.map */
