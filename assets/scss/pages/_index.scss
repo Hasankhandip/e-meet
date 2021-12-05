@@ -4,7 +4,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url(/assets/images/banner-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -445,7 +444,6 @@
 
 //ticket-section scss start
 .ticket-section {
-  background-image: url(/assets/images/ticket-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -464,7 +462,6 @@
 }
 .ticket-item-inner {
   text-align: center;
-  background-image: url(/assets/images/section-bg.png);
   padding: 50px 40px;
 }
 .ticket-item {
@@ -474,7 +471,7 @@
   width: 100%;
   position: absolute;
   left: 0;
-  top: -15px;
+  top: -14px;
 }
 .ticket-img-dot-2 {
   top: 100%;
@@ -647,7 +644,6 @@
 
 // sponsor-section scss start
 .sponsor-section {
-  background-image: url(/assets/images/section-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -748,7 +744,6 @@
 .book-section {
   padding-bottom: 200px;
   position: relative;
-  background-image: url(/assets/images/book-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

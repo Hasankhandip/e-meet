@@ -280,7 +280,6 @@ input:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url(/assets/images/banner-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -782,7 +781,6 @@ input:focus {
 }
 
 .ticket-section {
-  background-image: url(/assets/images/ticket-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -803,7 +801,6 @@ input:focus {
 
 .ticket-item-inner {
   text-align: center;
-  background-image: url(/assets/images/section-bg.png);
   padding: 50px 40px;
 }
 
@@ -815,7 +812,7 @@ input:focus {
   width: 100%;
   position: absolute;
   left: 0;
-  top: -15px;
+  top: -14px;
 }
 
 .ticket-img-dot-2 {
