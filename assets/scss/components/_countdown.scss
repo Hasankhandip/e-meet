@@ -1,0 +1,82 @@
+.clock.disabled {
+  color: $pink;
+  font-size: 24px;
+}
+.clock {
+  margin-left: 30px;
+}
+.clock > div {
+  border-radius: 50%;
+  text-align: center;
+  width: calc(33% - 10px);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.875rem 1.25rem;
+  background-color: $violet;
+  box-shadow: inset 0 0 10px rgba(189, 10, 89, 0.85);
+  &:first-child {
+    width: 100%;
+    height: 237px !important;
+    margin: 0 140px 25px 140px;
+    height: auto;
+    span {
+      font-size: 60px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .clock > div {
+    width: calc(25% - 5px);
+  }
+}
+@media (max-width: 575px) {
+  .clock > div {
+    padding: 20px 10px;
+    width: calc(50% - 10px);
+    margin-top: 15px;
+  }
+}
+.clock > div span {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+  font-family: $font-1;
+}
+@media (max-width: 767px) {
+  .clock > div span {
+    font-size: 32px;
+  }
+}
+@media (max-width: 575px) {
+  .clock > div span {
+    font-size: 24px;
+  }
+}
+.clock > div p {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: $font-2;
+  color: #dddddd;
+}
+.clock {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.clock span {
+  font-family: "Exo 2", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 1;
+}

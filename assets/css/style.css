@@ -216,6 +216,114 @@ input:focus {
   border: 1px solid #fff;
 }
 
+.clock.disabled {
+  color: #bd0a59;
+  font-size: 24px;
+}
+
+.clock {
+  margin-left: 30px;
+}
+
+.clock > div {
+  border-radius: 50%;
+  text-align: center;
+  width: calc(33% - 10px);
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.875rem 1.25rem;
+  background-color: #3b1d82;
+  -webkit-box-shadow: inset 0 0 10px rgba(189, 10, 89, 0.85);
+          box-shadow: inset 0 0 10px rgba(189, 10, 89, 0.85);
+}
+
+.clock > div:first-child {
+  width: 100%;
+  height: 237px !important;
+  margin: 0 140px 25px 140px;
+  height: auto;
+}
+
+.clock > div:first-child span {
+  font-size: 60px;
+}
+
+.clock > div:first-child p {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .clock > div {
+    width: calc(25% - 5px);
+  }
+}
+
+@media (max-width: 575px) {
+  .clock > div {
+    padding: 20px 10px;
+    width: calc(50% - 10px);
+    margin-top: 15px;
+  }
+}
+
+.clock > div span {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .clock > div span {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  .clock > div span {
+    font-size: 24px;
+  }
+}
+
+.clock > div p {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "Outfit", sans-serif;
+  color: #dddddd;
+}
+
+.clock {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clock span {
+  font-family: "Exo 2", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 1;
+}
+
 /* ====================== [ Start progress-wrap ] ====================== */
 .progress-wrap {
   position: fixed;
@@ -302,7 +410,7 @@ input:focus {
 .banner-top-title {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -316,7 +424,10 @@ input:focus {
 
 .banner-area {
   position: relative;
-  padding: 280px 0 180px 0;
+  padding: 280px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner-img {
@@ -1010,7 +1121,6 @@ input:focus {
 }
 
 .sponsor-section {
-  background-image: url(/assets/images/section-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1132,7 +1242,6 @@ input:focus {
 .book-section {
   padding-bottom: 200px;
   position: relative;
-  background-image: url(/assets/images/book-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

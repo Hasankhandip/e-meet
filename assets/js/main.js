@@ -67,3 +67,30 @@ $(document).ready(function() {
   })
 });
 // progressbar js end
+
+
+// with short level
+$('[data-countdown]').each(function() {
+  var $this = $(this), finalDate = $(this).data('countdown');
+  $this.countdown(finalDate).on('update.countdown', function(event) {
+    var format = '%D days %H hr : %M mn : %S sec';
+    $(this).html(event.strftime(format));
+  }).on('finish.countdown', function(event) {
+    var expireData = $(this).data('title');
+    $(this).html(expireData).parent().addClass('disabled');
+  });
+});
+
+// with Level
+$('[data-clock]').each(function() {
+  var $this = $(this), finalDate = $(this).data('clock');
+  $this.countdown(finalDate)
+  .on('update.countdown', function(event) {
+    var format = ''+'<div><span>%D</span><p>days</p></div>'+'<div><span>%H</span><p>hours</p></div>'+'<div><span>%M</span><p>minutes</p></div>'+'<div><span>%S</span><p>seconds</p></div>';
+    $(this).html(event.strftime(format));
+  })
+  .on('finish.countdown', function(event) {
+    var expireData = $(this).data('title');
+    $(this).html(expireData).addClass('disabled');
+  });
+});
