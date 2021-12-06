@@ -2,8 +2,6 @@
  // wow.js start
  new WOW().init();
  // wow.js end
-
-
 // header js 
 $(window).on("scroll", function(){
    if ($(this).scrollTop()) {
@@ -12,16 +10,6 @@ $(window).on("scroll", function(){
      $(".header-section").removeClass("fixed");
    }
  });
-
-// // countdown 
-// if ($('.countdown').length > 0) {
-//   $(".countdown").jCounter({
-//      date: '21 October 2020 12:00:00',
-//      fallback: function () {
-//         console.log("count finished!")
-//      }
-//   });
-// }
 // magnific popup
 $(document).ready(function() {
    $('.play-icon').magnificPopup(
@@ -31,10 +19,7 @@ $(document).ready(function() {
       {type:'iframe'}
       );
  });
-
-
  // progressbar js start
-  
  $(document).ready(function () {
   var progressPath = document.querySelector('.progress-wrap path');
   var pathLength = progressPath.getTotalLength();
@@ -67,8 +52,6 @@ $(document).ready(function() {
   })
 });
 // progressbar js end
-
-
 // with short level
 $('[data-countdown]').each(function() {
   var $this = $(this), finalDate = $(this).data('countdown');
@@ -80,7 +63,6 @@ $('[data-countdown]').each(function() {
     $(this).html(expireData).parent().addClass('disabled');
   });
 });
-
 // with Level
 $('[data-clock]').each(function() {
   var $this = $(this), finalDate = $(this).data('clock');
@@ -94,3 +76,12 @@ $('[data-clock]').each(function() {
     $(this).html(expireData).addClass('disabled');
   });
 });
+
+
+// spy-scroll js start
+var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+dataSpyList.forEach(function (dataSpyEl) {
+  bootstrap.ScrollSpy.getInstance(dataSpyEl)
+    .refresh()
+})
+// spy-scroll js end

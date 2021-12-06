@@ -22,7 +22,7 @@
     <!-- main css pathlink -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <!-- Start progress-scroll-button start-->
 
     <div class="progress-wrap cursor-pointer">
@@ -42,7 +42,7 @@
     <header class="header-section wow">
       <div class="container">
         <div class="row">
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand logo" href="index.html"
               ><span class="logo-icon">e</span> meet</a
             >
@@ -60,27 +60,43 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active"
+                    href="#scrollspyHeading1"
+                    aria-current="page"
+                    href="#"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#scrollspyHeading2" href="#"
+                    >About</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Speakers</a>
+                  <a class="nav-link" href="#scrollspyHeading3" href="#"
+                    >Speakers</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Schedule</a>
+                  <a class="nav-link" href="#scrollspyHeading4" href="#"
+                    >Schedule</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Ticket</a>
+                  <a class="nav-link" href="#scrollspyHeading5" href="#"
+                    >Ticket</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="#scrollspyHeading6" href="#"
+                    >Blog</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#scrollspyHeading7" href="#"
+                    >Contact</a
+                  >
                 </li>
               </ul>
               <a class="button-1 button-2" href="#0">Buy Ticket</a>
@@ -91,1384 +107,1461 @@
     </header>
     <!-- header-section end -->
 
-    <!-- banner-section start -->
-    <section
-      class="banner-section"
-      style="background-image: url(assets/images/banner-img.jpg)"
+    <!-- scroll-spy div end -->
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example"
+      data-bs-offset="0"
+      class="scrollspy-example"
+      tabindex="0"
     >
-      <div class="container">
-        <div class="row banner-area">
-          <div class="col-lg-6">
-            <p class="banner-top-title">
-              8 to 10 December 2021, Hotel Shonargaon, Dhaka
-            </p>
-            <h1 class="banner-title">
-              Digital Business <br />
-              Conference
-            </h1>
-            <a class="button-1" href="#0">Buy Ticket</a>
-          </div>
-          <div class="col-lg-6">
-            <div
-              class="clock"
-              data-clock="2022/01/01 12:00:00"
-              data-title="This lottery expired"
-            ></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- banner-section end -->
-
-    <!-- about-section start -->
-    <section class="about-section section-padding">
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top">Join The Event</p>
-            <h2 class="section-title">
-              Join <span>e-meet</span> and about more
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="about-item">
-              <h3 class="about-item-title">Great Speakers</h3>
-              <p class="about-item-details">
-                How you transform your business as technology, consumer, habits
-                industry dynamic
+      <!-- banner-section start -->
+      <section
+        class="banner-section"
+        id="scrollspyHeading1"
+        style="background-image: url(assets/images/banner-img.jpg)"
+      >
+        <div class="container">
+          <div class="row banner-area">
+            <div class="col-lg-6">
+              <p class="banner-top-title">
+                8 to 10 December 2021, Hotel Shonargaon, Dhaka
               </p>
-              <i
-                class="las la-microphone-alt about-item-icon about-item-icon-2"
-              ></i>
+              <h1 class="banner-title">
+                Digital Business <br />
+                Conference
+              </h1>
+              <a class="button-1" href="#0">Buy Ticket</a>
             </div>
-            <div class="about-item">
-              <h3 class="about-item-title">Networking</h3>
-              <p class="about-item-details">
-                How you transform your business as technology, consumer, habits
-                industry dynamic
-              </p>
-              <i class="las la-broadcast-tower about-item-icon"></i>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div href="#0" class="about-details">
-              <img
-                class="about-details-img"
-                src="assets/images/banner-2.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-2.jpg" class="play-icon">
-                <i class="las la-play"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="about-item">
-              <h3 class="about-item-title">New People</h3>
-              <p class="about-item-details">
-                How you transform your business as technology, consumer, habits
-                industry dynamic
-              </p>
-              <i class="las la-user-plus about-item-icon"></i>
-            </div>
-            <div class="about-item">
-              <h3 class="about-item-title">Have Fun</h3>
-              <p class="about-item-details">
-                How you transform your business as technology, consumer, habits
-                industry dynamic
-              </p>
-              <i class="las la-glass-cheers about-item-icon"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about-section end -->
-
-    <!-- speaker-section start -->
-    <section class="speaker-section section-padding">
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top">Listen to the</p>
-            <h2 class="section-title"><span>e-meet</span> speaker</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="speaker-item">
-              <img
-                class="speaker-img"
-                src="assets/images/speaker1.jpg"
-                alt=""
-              />
-              <div class="speaker-details">
-                <a class="speaker-title" href="#0">Lundryn Melisa</a>
-                <p class="speaker-info">Lead Designer, Payol</p>
-                <ul class="speaker-social">
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-medium-m"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="speaker-item">
-              <img
-                class="speaker-img"
-                src="assets/images/speaker2.jpg"
-                alt=""
-              />
-              <div class="speaker-details">
-                <a class="speaker-title" href="#0">Fredric Martinsson</a>
-                <p class="speaker-info">Founder, Edilta</p>
-                <ul class="speaker-social">
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-medium-m"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="speaker-item">
-              <img
-                class="speaker-img"
-                src="assets/images/speaker3.jpg"
-                alt=""
-              />
-              <div class="speaker-details">
-                <a class="speaker-title" href="#0">Agaton Johnsson</a>
-                <p class="speaker-info">Developer Expert</p>
-                <ul class="speaker-social">
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-medium-m"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="speaker-item">
-              <img
-                class="speaker-img"
-                src="assets/images/speaker4.jpg"
-                alt=""
-              />
-              <div class="speaker-details">
-                <a class="speaker-title" href="#0">Johnsson Agaton </a>
-                <p class="speaker-info">Developer Expert</p>
-                <ul class="speaker-social">
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-medium-m"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="speaker-item">
-              <img
-                class="speaker-img"
-                src="assets/images/speaker5.jpg"
-                alt=""
-              />
-              <div class="speaker-details">
-                <a class="speaker-title" href="#0">Henrikon Rebecca </a>
-                <p class="speaker-info">Founder, Cards</p>
-                <ul class="speaker-social">
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-medium-m"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="speaker-item">
-              <img
-                class="speaker-img"
-                src="assets/images/speaker6.jpg"
-                alt=""
-              />
-              <div class="speaker-details">
-                <a class="speaker-title" href="#0">Fredric Martinsson</a>
-                <p class="speaker-info">Designer, Edita</p>
-                <ul class="speaker-social">
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="speaker-social-item">
-                    <a class="speaker-social-link" href="#0">
-                      <i class="fab fa-medium-m"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- speaker-section end -->
-
-    <!-- Schedule-section start -->
-    <div class="schedule-section section-padding">
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top">Schedule Details</p>
-            <h2 class="section-title">
-              Information of <span>e-meet</span> schedules
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <ul
-              class="nav nav-pills schedule-nav"
-              id="pills-tab"
-              role="tablist"
-            >
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="pills-home-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-home"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-home"
-                  aria-selected="true"
-                >
-                  <h5 class="schedule-nav-title">Day 1</h5>
-                  <p class="schedule-nav-details">8 December, 2021</p>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-profile-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-profile"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-profile"
-                  aria-selected="false"
-                >
-                  <h5 class="schedule-nav-title">Day 2</h5>
-                  <p class="schedule-nav-details">9 December, 2021</p>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-contact-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-contact"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-contact"
-                  aria-selected="false"
-                >
-                  <h5 class="schedule-nav-title">Day 3</h5>
-                  <p class="schedule-nav-details">10 December, 2021</p>
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
+            <div class="col-lg-6">
               <div
-                class="tab-pane fade show active"
-                id="pills-home"
-                role="tabpanel"
-                aria-labelledby="pills-home-tab"
+                class="clock"
+                data-clock="2022/01/01 12:00:00"
+                data-title="This lottery expired"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner-section end -->
+
+      <!-- about-section start -->
+      <section class="about-section section-padding" id="scrollspyHeading2">
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top">Join The Event</p>
+              <h2 class="section-title">
+                Join <span>e-meet</span> and about more
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="about-item">
+                <h3 class="about-item-title">Great Speakers</h3>
+                <p class="about-item-details">
+                  How you transform your business as technology, consumer,
+                  habits industry dynamic
+                </p>
+                <i
+                  class="
+                    las
+                    la-microphone-alt
+                    about-item-icon about-item-icon-2
+                  "
+                ></i>
+              </div>
+              <div class="about-item">
+                <h3 class="about-item-title">Networking</h3>
+                <p class="about-item-details">
+                  How you transform your business as technology, consumer,
+                  habits industry dynamic
+                </p>
+                <i class="las la-broadcast-tower about-item-icon"></i>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div href="#0" class="about-details">
+                <img
+                  class="about-details-img"
+                  src="assets/images/banner-2.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-2.jpg" class="play-icon">
+                  <i class="las la-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="about-item">
+                <h3 class="about-item-title">New People</h3>
+                <p class="about-item-details">
+                  How you transform your business as technology, consumer,
+                  habits industry dynamic
+                </p>
+                <i class="las la-user-plus about-item-icon"></i>
+              </div>
+              <div class="about-item">
+                <h3 class="about-item-title">Have Fun</h3>
+                <p class="about-item-details">
+                  How you transform your business as technology, consumer,
+                  habits industry dynamic
+                </p>
+                <i class="las la-glass-cheers about-item-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-section end -->
+
+      <!-- speaker-section start -->
+      <section class="speaker-section section-padding" id="scrollspyHeading3">
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top">Listen to the</p>
+              <h2 class="section-title"><span>e-meet</span> speaker</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="speaker-item">
+                <img
+                  class="speaker-img"
+                  src="assets/images/speaker1.jpg"
+                  alt=""
+                />
+                <div class="speaker-details">
+                  <a class="speaker-title" href="#0">Lundryn Melisa</a>
+                  <p class="speaker-info">Lead Designer, Payol</p>
+                  <ul class="speaker-social">
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="speaker-item">
+                <img
+                  class="speaker-img"
+                  src="assets/images/speaker2.jpg"
+                  alt=""
+                />
+                <div class="speaker-details">
+                  <a class="speaker-title" href="#0">Fredric Martinsson</a>
+                  <p class="speaker-info">Founder, Edilta</p>
+                  <ul class="speaker-social">
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="speaker-item">
+                <img
+                  class="speaker-img"
+                  src="assets/images/speaker3.jpg"
+                  alt=""
+                />
+                <div class="speaker-details">
+                  <a class="speaker-title" href="#0">Agaton Johnsson</a>
+                  <p class="speaker-info">Developer Expert</p>
+                  <ul class="speaker-social">
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="speaker-item">
+                <img
+                  class="speaker-img"
+                  src="assets/images/speaker4.jpg"
+                  alt=""
+                />
+                <div class="speaker-details">
+                  <a class="speaker-title" href="#0">Johnsson Agaton </a>
+                  <p class="speaker-info">Developer Expert</p>
+                  <ul class="speaker-social">
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="speaker-item">
+                <img
+                  class="speaker-img"
+                  src="assets/images/speaker5.jpg"
+                  alt=""
+                />
+                <div class="speaker-details">
+                  <a class="speaker-title" href="#0">Henrikon Rebecca </a>
+                  <p class="speaker-info">Founder, Cards</p>
+                  <ul class="speaker-social">
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="speaker-item">
+                <img
+                  class="speaker-img"
+                  src="assets/images/speaker6.jpg"
+                  alt=""
+                />
+                <div class="speaker-details">
+                  <a class="speaker-title" href="#0">Fredric Martinsson</a>
+                  <p class="speaker-info">Designer, Edita</p>
+                  <ul class="speaker-social">
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="speaker-social-item">
+                      <a class="speaker-social-link" href="#0">
+                        <i class="fab fa-medium-m"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- speaker-section end -->
+
+      <!-- Schedule-section start -->
+      <div class="schedule-section section-padding" id="scrollspyHeading4">
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top">Schedule Details</p>
+              <h2 class="section-title">
+                Information of <span>e-meet</span> schedules
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <ul
+                class="nav nav-pills schedule-nav"
+                id="pills-tab"
+                role="tablist"
               >
-                <div class="row schedule-listing-area">
-                  <div class="col-lg-3">
-                    <div class="schedule-listing">
-                      <h2 class="schedule-slot-time">
-                        9.30 - 10.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch1.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing bg-2">
-                      <h2 class="schedule-slot-time">
-                        10.30 - 11.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch2.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    <h5 class="schedule-nav-title">Day 1</h5>
+                    <p class="schedule-nav-details">8 December, 2021</p>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    <h5 class="schedule-nav-title">Day 2</h5>
+                    <p class="schedule-nav-details">9 December, 2021</p>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    <h5 class="schedule-nav-title">Day 3</h5>
+                    <p class="schedule-nav-details">10 December, 2021</p>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="row schedule-listing-area">
+                    <div class="col-lg-3">
+                      <div class="schedule-listing">
+                        <h2 class="schedule-slot-time">
+                          9.30 - 10.30 <br />
+                          AM
+                        </h2>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing">
-                      <h2 class="schedule-slot-time">
-                        11.30 - 12.30 <br />
-                        PM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch3.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch1.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing bg-2">
-                      <h2 class="schedule-slot-time">
-                        12.30 - 01.30 <br />
-                        PM
-                      </h2>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing bg-2">
+                        <h2 class="schedule-slot-time">
+                          10.30 - 11.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch2.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing">
+                        <h2 class="schedule-slot-time">
+                          11.30 - 12.30 <br />
+                          PM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch3.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing bg-2">
+                        <h2 class="schedule-slot-time">
+                          12.30 - 01.30 <br />
+                          PM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch4.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch4.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <div class="row schedule-listing-area">
+                    <div class="col-lg-3">
+                      <div class="schedule-listing">
+                        <h2 class="schedule-slot-time">
+                          9.30 - 10.30 <br />
+                          AM
+                        </h2>
                       </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch1.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing bg-2">
+                        <h2 class="schedule-slot-time">
+                          10.30 - 11.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch2.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing">
+                        <h2 class="schedule-slot-time">
+                          11.30 - 12.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch3.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing bg-2">
+                        <h2 class="schedule-slot-time">
+                          12.30 - 01.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch4.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <div class="row schedule-listing-area">
+                    <div class="col-lg-3">
+                      <div class="schedule-listing">
+                        <h2 class="schedule-slot-time">
+                          9.30 - 10.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch1.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing bg-2">
+                        <h2 class="schedule-slot-time">
+                          10.30 - 11.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch2.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing">
+                        <h2 class="schedule-slot-time">
+                          11.30 - 12.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch3.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="schedule-listing bg-2">
+                        <h2 class="schedule-slot-time">
+                          12.30 - 01.30 <br />
+                          AM
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="schedule-speaker-details">
+                        <img
+                          class="schedule-speaker-img"
+                          src="assets/images/sch4.jpg"
+                          alt=""
+                        />
+                        <div class="schedule-speaker-info">
+                          <a href="#0" class="schedule-speaker-info-title">
+                            Elena De Silva
+                          </a>
+                          <p class="schedule-speaker-info-details">
+                            Bussinesman
+                          </p>
+                        </div>
+                        <div class="schedule-topic-area">
+                          <a href="#0" class="schedule-topic">
+                            Digital World Event Introduction
+                          </a>
+                          <p class="schedule-topic-details">
+                            Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices ipsum primis posuere cubilia Curae
+                            Nullam varius a felis eu dictum...
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="tab-pane fade"
-                id="pills-profile"
-                role="tabpanel"
-                aria-labelledby="pills-profile-tab"
-              >
-                <div class="row schedule-listing-area">
-                  <div class="col-lg-3">
-                    <div class="schedule-listing">
-                      <h2 class="schedule-slot-time">
-                        9.30 - 10.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch1.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing bg-2">
-                      <h2 class="schedule-slot-time">
-                        10.30 - 11.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch2.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing">
-                      <h2 class="schedule-slot-time">
-                        11.30 - 12.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch3.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing bg-2">
-                      <h2 class="schedule-slot-time">
-                        12.30 - 01.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch4.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-contact"
-                role="tabpanel"
-                aria-labelledby="pills-contact-tab"
-              >
-                <div class="row schedule-listing-area">
-                  <div class="col-lg-3">
-                    <div class="schedule-listing">
-                      <h2 class="schedule-slot-time">
-                        9.30 - 10.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch1.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing bg-2">
-                      <h2 class="schedule-slot-time">
-                        10.30 - 11.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch2.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing">
-                      <h2 class="schedule-slot-time">
-                        11.30 - 12.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch3.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="schedule-listing bg-2">
-                      <h2 class="schedule-slot-time">
-                        12.30 - 01.30 <br />
-                        AM
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-lg-9">
-                    <div class="schedule-speaker-details">
-                      <img
-                        class="schedule-speaker-img"
-                        src="assets/images/sch4.jpg"
-                        alt=""
-                      />
-                      <div class="schedule-speaker-info">
-                        <a href="#0" class="schedule-speaker-info-title">
-                          Elena De Silva
-                        </a>
-                        <p class="schedule-speaker-info-details">Bussinesman</p>
-                      </div>
-                      <div class="schedule-topic-area">
-                        <a href="#0" class="schedule-topic">
-                          Digital World Event Introduction
-                        </a>
-                        <p class="schedule-topic-details">
-                          Vestibulum ante ipsum primis in faucibus orci luctus
-                          et ultrices ipsum primis posuere cubilia Curae Nullam
-                          varius a felis eu dictum...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <a class="button-1" href="#0">More Details</a>
             </div>
-            <a class="button-1" href="#0">More Details</a>
           </div>
         </div>
       </div>
+      <!-- Schedule-section end -->
+
+      <!-- ticket-section start -->
+      <section
+        class="ticket-section section-padding"
+        id="scrollspyHeading5"
+        style="background-image: url(assets/images/ticket-bg.jpg)"
+      >
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top section-title-top-2">Pricing Plans</p>
+              <h2 class="section-title section-title-2">
+                Get your <span>e-meet</span> ticket
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="ticket-item">
+                <img
+                  class="ticket-img-dot"
+                  src="assets/images/dot.png"
+                  alt=""
+                />
+                <div
+                  class="ticket-item-inner"
+                  style="background-image: url(assets/images/section-bg.png)"
+                >
+                  <h6 class="ticket-item-title">Standard</h6>
+                  <h2 class="ticket-item-price">$40</h2>
+                  <p class="ticket-item-details">
+                    Available tickets for this price
+                  </p>
+                  <div class="ticket-proggres" style="width: 84%"></div>
+                  <div class="ticket-proggres-details">500/421</div>
+                  <a class="button-1" href="#0">Buy Ticket</a>
+                </div>
+                <img
+                  class="ticket-img-dot ticket-img-dot-2"
+                  src="assets/images/dot.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ticket-item">
+                <img
+                  class="ticket-img-dot"
+                  src="assets/images/dot.png"
+                  alt=""
+                />
+                <div
+                  class="ticket-item-inner"
+                  style="background-image: url(assets/images/section-bg.png)"
+                >
+                  <h6 class="ticket-item-title">Regular</h6>
+                  <h2 class="ticket-item-price">$70</h2>
+                  <p class="ticket-item-details">
+                    Available tickets for this price
+                  </p>
+                  <div class="ticket-proggres" style="width: 79%"></div>
+                  <div class="ticket-proggres-details">500/395</div>
+                  <a class="button-1" href="#0">Buy Ticket</a>
+                </div>
+                <img
+                  class="ticket-img-dot ticket-img-dot-2"
+                  src="assets/images/dot.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ticket-item">
+                <img
+                  class="ticket-img-dot"
+                  src="assets/images/dot.png"
+                  alt=""
+                />
+                <div
+                  class="ticket-item-inner"
+                  style="background-image: url(assets/images/section-bg.png)"
+                >
+                  <h6 class="ticket-item-title">Premium</h6>
+                  <h2 class="ticket-item-price">$100</h2>
+                  <p class="ticket-item-details">
+                    Available tickets for this price
+                  </p>
+                  <div class="ticket-proggres" style="width: 72.8%"></div>
+                  <div class="ticket-proggres-details">500/364</div>
+                  <a class="button-1" href="#0">Buy Ticket</a>
+                </div>
+                <img
+                  class="ticket-img-dot ticket-img-dot-2"
+                  src="assets/images/dot.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ticket-section end -->
+
+      <!-- blog-section start -->
+      <section class="blog-section section-padding" id="scrollspyHeading6">
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top">Info Update</p>
+              <h2 class="section-title">Latest <span>e-meet</span> news</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="blog-item">
+                <img
+                  class="blog-item-img"
+                  src="assets/images/banner-2.jpg"
+                  alt=""
+                />
+                <ul class="post-meta">
+                  <li class="post-meta-item">
+                    <a class="post-meta-link" href="#0">By Admin</a>
+                  </li>
+                  <li class="post-meta-item">
+                    <a class="post-meta-link" href="#0">6 December, 2021</a>
+                  </li>
+                </ul>
+                <a class="blog-title" href="#0">Check upcoming Events</a>
+                <p class="blog-title-details">
+                  How you transform your business asap technology, consumer,
+                </p>
+                <a class="button-1" href="#0">Read More</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blog-item">
+                <img
+                  class="blog-item-img"
+                  src="assets/images/banner-img.jpg"
+                  alt=""
+                />
+                <ul class="post-meta">
+                  <li class="post-meta-item">
+                    <a class="post-meta-link" href="#0">By Admin</a>
+                  </li>
+                  <li class="post-meta-item">
+                    <a class="post-meta-link" href="#0">6 December, 2021</a>
+                  </li>
+                </ul>
+                <a class="blog-title" href="#0">Adding a New Digital</a>
+                <p class="blog-title-details">
+                  How you transform your business asap technology, consumer,
+                </p>
+                <a class="button-1" href="#0">Read More</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blog-item">
+                <img
+                  class="blog-item-img"
+                  src="assets/images/ticket-bg.jpg"
+                  alt=""
+                />
+                <ul class="post-meta">
+                  <li class="post-meta-item">
+                    <a class="post-meta-link" href="#0">By Admin</a>
+                  </li>
+                  <li class="post-meta-item">
+                    <a class="post-meta-link" href="#0">6 December, 2021</a>
+                  </li>
+                </ul>
+                <a class="blog-title" href="#0">West Elm At Evantor</a>
+                <p class="blog-title-details">
+                  How you transform your business asap technology, consumer,
+                </p>
+                <a class="button-1" href="#0">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog-section end -->
+
+      <!-- photo-gallery-section start -->
+      <section class="photo-gallery-section section-padding">
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top">View e-meet family</p>
+              <h2 class="section-title"><span>e-meet</span> photo gallery</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row photo-gallery-area">
+            <div class="col-lg-3">
+              <div class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/banner-img.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-img.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0 " class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/banner-2.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-2.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/gallery1.jpg"
+                  alt=""
+                />
+                <a href="assets/images/gallery1.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/ticket-bg.jpg"
+                  alt=""
+                />
+                <a href="assets/images/ticket-bg.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/gallery1.jpg"
+                  alt=""
+                />
+                <a href="assets/images/gallery1.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/banner-img.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-img.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/ticket-bg.jpg"
+                  alt=""
+                />
+                <a href="assets/images/ticket-bg.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/banner-2.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-2.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/banner-img.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-img.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0 " class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/banner-2.jpg"
+                  alt=""
+                />
+                <a href="assets/images/banner-2.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/gallery1.jpg"
+                  alt=""
+                />
+                <a href="assets/images/gallery1.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div href="#0" class="photo-gallery">
+                <img
+                  class="photo-gallery-img"
+                  src="assets/images/ticket-bg.jpg"
+                  alt=""
+                />
+                <a href="assets/images/ticket-bg.jpg" class="view-photo"
+                  ><i class="fas fa-search-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- photo-gallery-section end -->
+
+      <!-- sponsor-section start -->
+      <section
+        class="sponsor-section section-padding"
+        style="background-image: url(assets/images/section-bg.png)"
+      >
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top">Who helps us</p>
+              <h2 class="section-title">
+                <span>e-meet</span> Offcial Sponsors
+              </h2>
+            </div>
+          </div>
+          <div class="row sponsor-wall">
+            <div class="col-lg-12 text-center">
+              <h3 class="sponsor-title">Gold Sponsors</h3>
+            </div>
+            <div class="col-lg-4">
+              <div class="sponsor-img-area">
+                <img class="sponsor-img" src="assets/images/sp1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="sponsor-img-area">
+                <img class="sponsor-img" src="assets/images/sp2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="sponsor-img-area">
+                <img class="sponsor-img" src="assets/images/sp3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="row sponsor-wall-2">
+            <div class="col-lg-12 text-center">
+              <h3 class="sponsor-title sponsor-title-2">Silver Sponsors</h3>
+            </div>
+            <div class="col-lg-4">
+              <div class="sponsor-img-area">
+                <img class="sponsor-img" src="assets/images/sp4.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="sponsor-img-area">
+                <img class="sponsor-img" src="assets/images/sp5.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="sponsor-img-area">
+                <img class="sponsor-img" src="assets/images/sp6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sponsor-section end -->
+
+      <!-- contact-section start -->
+      <section class="contact-section section-padding" id="scrollspyHeading7">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <p class="section-title-top">Reach us</p>
+              <h2 class="section-title section-title-area">
+                Get Direction to the <span>e-meet</span> Hall
+              </h2>
+
+              <ul
+                class="nav nav-pills schedule-nav contact-nav"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home-2"
+                  >
+                    <p class="schedule-nav-details">Venue</p>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile-2"
+                  >
+                    <p class="schedule-nav-details">Time</p>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact-2"
+                  >
+                    <p class="schedule-nav-details">How to get there</p>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade active show"
+                  id="pills-home-2"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-2-tab"
+                >
+                  <h4 class="contat-details-title">Hotel Shonargaon, Dhaka</h4>
+                  <p class="contat-details-title-info">
+                    107 Kazi Nazrul Islam Avenue , <br />
+                    Dhaka 1215
+                  </p>
+                  <ul class="contact-details-list">
+                    <h4 class="contat-details-title">Ticket Info</h4>
+                    <li class="contact-details-item">
+                      Name :
+                      <span class="contat-details-title-info"
+                        >Ronaldo König</span
+                      >
+                    </li>
+                    <li class="contact-details-item">
+                      Phone :
+                      <span class="contat-details-title-info">01728869102</span>
+                    </li>
+                    <li class="contact-details-item">
+                      Email :
+                      <span class="contat-details-title-info"
+                        >hasankhandip@gmail.com</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile-2"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-2-tab"
+                >
+                  <h4 class="contat-details-title">
+                    Event start at 9.30am - 1.30pm
+                  </h4>
+                  <p class="contat-details-title-info">
+                    107 Kazi Nazrul Islam Avenue , <br />
+                    Dhaka 1215
+                  </p>
+                  <ul class="contact-details-list">
+                    <h4 class="contat-details-title">Ticket Info</h4>
+                    <li class="contact-details-item">
+                      Name :
+                      <span class="contat-details-title-info"
+                        >Ronaldo König</span
+                      >
+                    </li>
+                    <li class="contact-details-item">
+                      Phone :
+                      <span class="contat-details-title-info">01728869102</span>
+                    </li>
+                    <li class="contact-details-item">
+                      Email :
+                      <span class="contat-details-title-info"
+                        >hasankhandip@gmail.com</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact-2"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-2-tab"
+                >
+                  <h4 class="contat-details-title">
+                    Buy ticket and join e-meet
+                  </h4>
+                  <p class="contat-details-title-info">
+                    107 Kazi Nazrul Islam Avenue , <br />
+                    Dhaka 1215
+                  </p>
+                  <ul class="contact-details-list">
+                    <h4 class="contat-details-title">Ticket Info</h4>
+                    <li class="contact-details-item">
+                      Name :
+                      <span class="contat-details-title-info"
+                        >Ronaldo König</span
+                      >
+                    </li>
+                    <li class="contact-details-item">
+                      Phone :
+                      <span class="contat-details-title-info">01728869102</span>
+                    </li>
+                    <li class="contact-details-item">
+                      Email :
+                      <span class="contat-details-title-info"
+                        >hasankhandip@gmail.com</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 d-flex justify-content-center">
+              <div class="contact-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9381193678823!2d90.39255895081806!3d23.74958598451416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b897e97a02b9%3A0x27f34ccd83ba6ede!2sPan%20Pacific%20Sonargaon%20Dhaka!5e0!3m2!1sen!2sbd!4v1638603885589!5m2!1sen!2sbd"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact-section end -->
+
+      <!-- book-section start -->
+      <section
+        class="book-section section-padding"
+        style="background-image: url(assets/images/book-img.jpg)"
+      >
+        <div class="container">
+          <div
+            class="row justify-content-center text-center section-title-area"
+          >
+            <div class="col-lg-6">
+              <p class="section-title-top section-title-top-2">Hurry up!</p>
+              <h2 class="section-title section-title-top-2">
+                Book your <span>e-meet</span> Seat
+              </h2>
+              <a class="button-1 mt-5" href="#0">Buy Ticket</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- book-section end -->
     </div>
-    <!-- Schedule-section end -->
-
-    <!-- ticket-section start -->
-    <section
-      class="ticket-section section-padding"
-      style="background-image: url(assets/images/ticket-bg.jpg)"
-    >
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top section-title-top-2">Pricing Plans</p>
-            <h2 class="section-title section-title-2">
-              Get your <span>e-meet</span> ticket
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="ticket-item">
-              <img class="ticket-img-dot" src="assets/images/dot.png" alt="" />
-              <div
-                class="ticket-item-inner"
-                style="background-image: url(assets/images/section-bg.png)"
-              >
-                <h6 class="ticket-item-title">Standard</h6>
-                <h2 class="ticket-item-price">$40</h2>
-                <p class="ticket-item-details">
-                  Available tickets for this price
-                </p>
-                <div class="ticket-proggres" style="width: 84%"></div>
-                <div class="ticket-proggres-details">500/421</div>
-                <a class="button-1" href="#0">Buy Ticket</a>
-              </div>
-              <img
-                class="ticket-img-dot ticket-img-dot-2"
-                src="assets/images/dot.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="ticket-item">
-              <img class="ticket-img-dot" src="assets/images/dot.png" alt="" />
-              <div
-                class="ticket-item-inner"
-                style="background-image: url(assets/images/section-bg.png)"
-              >
-                <h6 class="ticket-item-title">Regular</h6>
-                <h2 class="ticket-item-price">$70</h2>
-                <p class="ticket-item-details">
-                  Available tickets for this price
-                </p>
-                <div class="ticket-proggres" style="width: 79%"></div>
-                <div class="ticket-proggres-details">500/395</div>
-                <a class="button-1" href="#0">Buy Ticket</a>
-              </div>
-              <img
-                class="ticket-img-dot ticket-img-dot-2"
-                src="assets/images/dot.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="ticket-item">
-              <img class="ticket-img-dot" src="assets/images/dot.png" alt="" />
-              <div
-                class="ticket-item-inner"
-                style="background-image: url(assets/images/section-bg.png)"
-              >
-                <h6 class="ticket-item-title">Premium</h6>
-                <h2 class="ticket-item-price">$100</h2>
-                <p class="ticket-item-details">
-                  Available tickets for this price
-                </p>
-                <div class="ticket-proggres" style="width: 72.8%"></div>
-                <div class="ticket-proggres-details">500/364</div>
-                <a class="button-1" href="#0">Buy Ticket</a>
-              </div>
-              <img
-                class="ticket-img-dot ticket-img-dot-2"
-                src="assets/images/dot.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ticket-section end -->
-
-    <!-- blog-section start -->
-    <section class="blog-section section-padding">
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top">Info Update</p>
-            <h2 class="section-title">Latest <span>e-meet</span> news</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="blog-item">
-              <img
-                class="blog-item-img"
-                src="assets/images/banner-2.jpg"
-                alt=""
-              />
-              <ul class="post-meta">
-                <li class="post-meta-item">
-                  <a class="post-meta-link" href="#0">By Admin</a>
-                </li>
-                <li class="post-meta-item">
-                  <a class="post-meta-link" href="#0">6 December, 2021</a>
-                </li>
-              </ul>
-              <a class="blog-title" href="#0">Check upcoming Events</a>
-              <p class="blog-title-details">
-                How you transform your business asap technology, consumer,
-              </p>
-              <a class="button-1" href="#0">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="blog-item">
-              <img
-                class="blog-item-img"
-                src="assets/images/banner-img.jpg"
-                alt=""
-              />
-              <ul class="post-meta">
-                <li class="post-meta-item">
-                  <a class="post-meta-link" href="#0">By Admin</a>
-                </li>
-                <li class="post-meta-item">
-                  <a class="post-meta-link" href="#0">6 December, 2021</a>
-                </li>
-              </ul>
-              <a class="blog-title" href="#0">Adding a New Digital</a>
-              <p class="blog-title-details">
-                How you transform your business asap technology, consumer,
-              </p>
-              <a class="button-1" href="#0">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="blog-item">
-              <img
-                class="blog-item-img"
-                src="assets/images/ticket-bg.jpg"
-                alt=""
-              />
-              <ul class="post-meta">
-                <li class="post-meta-item">
-                  <a class="post-meta-link" href="#0">By Admin</a>
-                </li>
-                <li class="post-meta-item">
-                  <a class="post-meta-link" href="#0">6 December, 2021</a>
-                </li>
-              </ul>
-              <a class="blog-title" href="#0">West Elm At Evantor</a>
-              <p class="blog-title-details">
-                How you transform your business asap technology, consumer,
-              </p>
-              <a class="button-1" href="#0">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- blog-section end -->
-
-    <!-- photo-gallery-section start -->
-    <section class="photo-gallery-section section-padding">
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top">View e-meet family</p>
-            <h2 class="section-title"><span>e-meet</span> photo gallery</h2>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row photo-gallery-area">
-          <div class="col-lg-3">
-            <div class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/banner-img.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-img.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0 " class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/banner-2.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-2.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/gallery1.jpg"
-                alt=""
-              />
-              <a href="assets/images/gallery1.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/ticket-bg.jpg"
-                alt=""
-              />
-              <a href="assets/images/ticket-bg.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/gallery1.jpg"
-                alt=""
-              />
-              <a href="assets/images/gallery1.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/banner-img.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-img.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/ticket-bg.jpg"
-                alt=""
-              />
-              <a href="assets/images/ticket-bg.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/banner-2.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-2.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/banner-img.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-img.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0 " class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/banner-2.jpg"
-                alt=""
-              />
-              <a href="assets/images/banner-2.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/gallery1.jpg"
-                alt=""
-              />
-              <a href="assets/images/gallery1.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div href="#0" class="photo-gallery">
-              <img
-                class="photo-gallery-img"
-                src="assets/images/ticket-bg.jpg"
-                alt=""
-              />
-              <a href="assets/images/ticket-bg.jpg" class="view-photo"
-                ><i class="fas fa-search-plus"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- photo-gallery-section end -->
-
-    <!-- sponsor-section start -->
-    <section
-      class="sponsor-section section-padding"
-      style="background-image: url(assets/images/section-bg.png)"
-    >
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top">Who helps us</p>
-            <h2 class="section-title"><span>e-meet</span> Offcial Sponsors</h2>
-          </div>
-        </div>
-        <div class="row sponsor-wall">
-          <div class="col-lg-12 text-center">
-            <h3 class="sponsor-title">Gold Sponsors</h3>
-          </div>
-          <div class="col-lg-4">
-            <div class="sponsor-img-area">
-              <img class="sponsor-img" src="assets/images/sp1.png" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="sponsor-img-area">
-              <img class="sponsor-img" src="assets/images/sp2.png" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="sponsor-img-area">
-              <img class="sponsor-img" src="assets/images/sp3.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="row sponsor-wall-2">
-          <div class="col-lg-12 text-center">
-            <h3 class="sponsor-title sponsor-title-2">Silver Sponsors</h3>
-          </div>
-          <div class="col-lg-4">
-            <div class="sponsor-img-area">
-              <img class="sponsor-img" src="assets/images/sp4.png" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="sponsor-img-area">
-              <img class="sponsor-img" src="assets/images/sp5.png" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="sponsor-img-area">
-              <img class="sponsor-img" src="assets/images/sp6.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- sponsor-section end -->
-
-    <!-- contact-section start -->
-    <section class="contact-section section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <p class="section-title-top">Reach us</p>
-            <h2 class="section-title section-title-area">
-              Get Direction to the <span>e-meet</span> Hall
-            </h2>
-
-            <ul
-              class="nav nav-pills schedule-nav contact-nav"
-              id="pills-tab"
-              role="tablist"
-            >
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="pills-home-2-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-home-2"
-                >
-                  <p class="schedule-nav-details">Venue</p>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-profile-2-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-profile-2"
-                >
-                  <p class="schedule-nav-details">Time</p>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-contact-2-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-contact-2"
-                >
-                  <p class="schedule-nav-details">How to get there</p>
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div
-                class="tab-pane fade active show"
-                id="pills-home-2"
-                role="tabpanel"
-                aria-labelledby="pills-home-2-tab"
-              >
-                <h4 class="contat-details-title">Hotel Shonargaon, Dhaka</h4>
-                <p class="contat-details-title-info">
-                  107 Kazi Nazrul Islam Avenue , <br />
-                  Dhaka 1215
-                </p>
-                <ul class="contact-details-list">
-                  <h4 class="contat-details-title">Ticket Info</h4>
-                  <li class="contact-details-item">
-                    Name :
-                    <span class="contat-details-title-info">Ronaldo König</span>
-                  </li>
-                  <li class="contact-details-item">
-                    Phone :
-                    <span class="contat-details-title-info">01728869102</span>
-                  </li>
-                  <li class="contact-details-item">
-                    Email :
-                    <span class="contat-details-title-info"
-                      >hasankhandip@gmail.com</span
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-profile-2"
-                role="tabpanel"
-                aria-labelledby="pills-profile-2-tab"
-              >
-                <h4 class="contat-details-title">
-                  Event start at 9.30am - 1.30pm
-                </h4>
-                <p class="contat-details-title-info">
-                  107 Kazi Nazrul Islam Avenue , <br />
-                  Dhaka 1215
-                </p>
-                <ul class="contact-details-list">
-                  <h4 class="contat-details-title">Ticket Info</h4>
-                  <li class="contact-details-item">
-                    Name :
-                    <span class="contat-details-title-info">Ronaldo König</span>
-                  </li>
-                  <li class="contact-details-item">
-                    Phone :
-                    <span class="contat-details-title-info">01728869102</span>
-                  </li>
-                  <li class="contact-details-item">
-                    Email :
-                    <span class="contat-details-title-info"
-                      >hasankhandip@gmail.com</span
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-contact-2"
-                role="tabpanel"
-                aria-labelledby="pills-contact-2-tab"
-              >
-                <h4 class="contat-details-title">Buy ticket and join e-meet</h4>
-                <p class="contat-details-title-info">
-                  107 Kazi Nazrul Islam Avenue , <br />
-                  Dhaka 1215
-                </p>
-                <ul class="contact-details-list">
-                  <h4 class="contat-details-title">Ticket Info</h4>
-                  <li class="contact-details-item">
-                    Name :
-                    <span class="contat-details-title-info">Ronaldo König</span>
-                  </li>
-                  <li class="contact-details-item">
-                    Phone :
-                    <span class="contat-details-title-info">01728869102</span>
-                  </li>
-                  <li class="contact-details-item">
-                    Email :
-                    <span class="contat-details-title-info"
-                      >hasankhandip@gmail.com</span
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7 d-flex justify-content-center">
-            <div class="contact-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9381193678823!2d90.39255895081806!3d23.74958598451416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b897e97a02b9%3A0x27f34ccd83ba6ede!2sPan%20Pacific%20Sonargaon%20Dhaka!5e0!3m2!1sen!2sbd!4v1638603885589!5m2!1sen!2sbd"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- contact-section end -->
-
-    <!-- book-section start -->
-    <section
-      class="book-section section-padding"
-      style="background-image: url(assets/images/book-img.jpg)"
-    >
-      <div class="container">
-        <div class="row justify-content-center text-center section-title-area">
-          <div class="col-lg-6">
-            <p class="section-title-top section-title-top-2">Hurry up!</p>
-            <h2 class="section-title section-title-top-2">
-              Book your <span>e-meet</span> Seat
-            </h2>
-            <a class="button-1 mt-5" href="#0">Buy Ticket</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- book-section end -->
-
+    <!-- scroll-spy div end -->
     <!-- footer-section start -->
     <footer class="footer-section">
       <div class="container">

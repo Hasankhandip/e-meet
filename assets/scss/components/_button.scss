@@ -13,8 +13,7 @@
     position: absolute;
     left: -97%;
     bottom: -20%;
-    background-color: #031382;
-    opacity: 0.2;
+    background-color: #e7015e;
     width: 110%;
     height: 200px;
     z-index: -1;
@@ -25,9 +24,8 @@
     color: #fff;
     border-radius: 10px;
     &::before {
-      left: 30%;
-      bottom: 85%;
-      border-radius: 50px;
+      left: 0;
+      bottom: 50%;
     }
   }
 }
